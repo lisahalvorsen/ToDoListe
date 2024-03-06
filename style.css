@@ -1,0 +1,47 @@
+table,
+tr,
+td,
+th {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 4px;
+}
+
+table {
+    border: 1px solid orange;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+th {
+    background-color: orange;
+    border: 1px solid orange;
+    color: whitesmoke;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: lightgray;
+}
+
+#tasksTable {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.addBtn {
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(56, 105, 76);
+    color: whitesmoke;
+}
+
+#taskDescription,
+#tasksResponsibility {
+    margin-left: 100px;
+}
